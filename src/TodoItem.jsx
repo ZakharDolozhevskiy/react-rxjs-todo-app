@@ -5,7 +5,7 @@ const TodoItem = ({ record, onToggle, onDelete }) => (
         <span onClick={onToggle} style={{ textDecoration: record.done ? 'line-through' : 'none' }}>
             {record.text}
         </span>
-        <strong onClick={onDelete}> (X) </strong>
+        <strong onClick={onDelete}> (x) </strong>
     </li>
 )
 

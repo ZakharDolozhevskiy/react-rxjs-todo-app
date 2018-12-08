@@ -10,17 +10,17 @@ const App = componentFromStream(props$ => {
     const {
         stream: onInput$,
         handler: onInput
-    } = createEventHandler();
+    } = createEventHandler()
 
     const {
         stream: onDelete$,
         handler: onDelete
-    } = createEventHandler();
+    } = createEventHandler()
 
     const {
         stream: onToggle$,
         handler: onToggle
-    } = createEventHandler();
+    } = createEventHandler()
 
     const actionHandler = (records, action) => {
         if (action.type === T.ADD) {
@@ -56,4 +56,4 @@ const App = componentFromStream(props$ => {
     )
 })
 
-export default App;
+export default App

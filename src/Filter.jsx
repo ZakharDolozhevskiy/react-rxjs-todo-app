@@ -1,5 +1,5 @@
 import React from "react"
-import T from './types';
+import T from './types'
 
 const Filters = ({ onChange, value = T.ALL }) => (
     <fieldset id="filters-group">
